@@ -8,7 +8,11 @@ just need you to run this command
 ``` 
 and it will do the rest for you.
 
-#
+## Uninstallation guide
+```
+ bash -c "$(curl -L https://raw.githubusercontent.com/sajjaddg/xray-reality/master/uninstall.sh)"
+``` 
+
 ## Installation Guide with Docker 
 
 0. install docker 
@@ -17,7 +21,7 @@ curl -fsSL https://get.docker.com | sh
 ```
 1. clone this project 
 ``` bash
-git clone https://github.com/samsesh/xray-reality && cd xray-reality
+git clone https://github.com/sajjaddg/xray-reality && cd xray-reality
 ```
 2. build docker image 
 ``` bash
